@@ -91,7 +91,7 @@ abstract class Pass {
             System.out.println("Vehicle Id is :"+vehicle.vehicleId);
             System.out.println("Start Date : "+LocalDate.now().toString());
             System.out.println("Current Time : " + LocalTime.now().toString());
-            System.out.println("Start Date : "+pass.getExpiryDate());
+            System.out.println("End Date : "+pass.getExpiryDate());
 
 
         }
